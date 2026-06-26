@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Tienda</title>
+</head>
+<body>
+    <Section>
+    <button id="Filtrar">Filtrar producto</button>
+    <button id="Filtrartodo">Filtrar Todo</button>
+    <button id="Descuento">Aplicar 10% de descuento</button>
+    <button id="CeroStock">Buscar 0 Stock</button>
+   </Section>
+   <table id="tablaProductos" border="1">
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Categoría</th>
+      <th>Precio</th>
+      <th>Stock</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Laptop</td>
+      <td>Electrónica</td>
+      <td>1200</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Mouse</td>
+      <td>Electrónica</td>
+      <td>25</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Camisa</td>
+      <td>Ropa</td>
+      <td>45</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Monitor</td>
+      <td>Electrónica</td>
+      <td>300</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Pantalón</td>
+      <td>Ropa</td>
+      <td>60</td>
+      <td>8</td>
+    </tr>
+  </table>
+  <h2>Agregar Producto</h2>
+
+<input type="number" id="id" placeholder="ID">
+<input type="text" id="nombre" placeholder="Nombre">
+<input type="text" id="categoria" placeholder="Categoría">
+<input type="number" id="precio" placeholder="Precio">
+<input type="number" id="stock" placeholder="Stock">
+<button id="Agregar">Agregar Producto</button>
+<br><br>
+    <script src="Java.js"></script>
+
+</body>
+</html>

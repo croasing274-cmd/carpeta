@@ -1,0 +1,10 @@
+table{
+margin-left: 0%;
+height: 85%;
+width: 100%;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 30px;
+}
